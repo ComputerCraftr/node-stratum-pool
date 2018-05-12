@@ -31,11 +31,12 @@
     },
     "dependencies": {
         "multi-hashing": "git://github.com/ComputerCraftr/node-multi-hashing.git",
-        "bignum": "*",
+        "async": "*",
         "base58-native": "*",
-        "async": "*"
+        "bignum": "*",
+        "promise": "*"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": ">=7"
     }
 }
